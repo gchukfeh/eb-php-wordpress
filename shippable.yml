@@ -1,0 +1,13 @@
+language: php
+
+php:
+    - 5.4
+integrations:
+  deploy:
+    - integrationName: "aws-eb-integration"
+      type: aws
+      target: eb_paas
+      platform: "Node.js"
+      application_name: wordpress-beanstalk
+      env_name: wordpress-beanstalk
+      region: us-east-1
