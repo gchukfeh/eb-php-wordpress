@@ -5,7 +5,8 @@ php:
 
 build:
     ci:
-        - apt-get install python-dev
+        - sudo apt-get -y install python-dev
+        - sudo apt-get -y install python3-dev
         - sudo pip install setuptools==34.0.1
         - sudo pip install --upgrade botocore
         - sudo pip install awsebcli
