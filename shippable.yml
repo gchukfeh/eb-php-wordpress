@@ -18,6 +18,6 @@ integrations:
       type: aws
       target: eb_paas
       platform: "php"
-      application_name: wordpress-beanstalk
-      env_name: wordpress-beanstalk
+      application_name: eb-php-wordpress-master
+      env_name: wp-bs3
       region: us-east-1
