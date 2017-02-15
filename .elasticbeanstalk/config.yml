@@ -1,0 +1,14 @@
+branch-defaults:
+  default:
+    environment: wordpress-beanstalk
+environment-defaults:
+  wordpress-beanstalk:
+    branch: null
+    repository: null
+global:
+  application_name: wordpress-beanstalk
+  default_ec2_keyname: jumpbox_key
+  default_platform: 64bit Amazon Linux 2016.09 v2.3.1 running PHP 7.0
+  default_region: us-east-1
+  profile: eb-cli
+  sc: null
