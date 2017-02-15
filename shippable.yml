@@ -19,5 +19,5 @@ integrations:
       target: eb_paas
       platform: "php"
       application_name: eb-php-wordpress-master
-      env_name: wp-bs3
+      env_name: wp-bs4
       region: us-east-1
