@@ -6,7 +6,6 @@ php:
 build:
     ci:
         - sudo pip install setuptools==34.0.1
-        - sudo yum install python-devel
         - sudo pip install awsebcli
         - sudo pip install --upgrade botocore
         - echo "yeah"              
