@@ -17,7 +17,7 @@ integrations:
     - integrationName: "aws-eb-integration"
       type: aws
       target: eb_paas
-      platform: "Node.js"
+      platform: "php"
       application_name: wordpress-beanstalk
       env_name: wordpress-beanstalk
       region: us-east-1
